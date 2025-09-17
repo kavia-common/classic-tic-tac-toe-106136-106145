@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Local container-level no-op Gradle wrapper, in case CI executes from here.
+echo "No native Gradle project present (Expo managed). Skipping Gradle task: $*"
+exit 0

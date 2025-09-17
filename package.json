@@ -1,0 +1,11 @@
+{
+  "name": "classic-tic-tac-toe-monorepo",
+  "private": true,
+  "workspaces": [
+    "tic_tac_toe_frontend"
+  ],
+  "scripts": {
+    "prepare:ci": "bash ./prepare-ci.sh",
+    "build": "npm run prepare:ci && echo \"Root build (no-op for Expo managed)\""
+  }
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This is a no-op gradle wrapper placeholder for CI environments that attempt to call ./gradlew
+# In Expo managed workflow, native projects are not present unless prebuilt.
+echo "No native Android project in Expo managed workflow. Skipping Gradle task: $*"
+exit 0

@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+dist
+build
+.expo
+.expo-shared
+**/.DS_Store
+**/Thumbs.db
+**/.git
+**/.gitignore
+**/.gitattributes
+**/.github
+**/.vscode
+**/.idea
